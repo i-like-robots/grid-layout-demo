@@ -1,0 +1,46 @@
+.Grid {
+  // declare this a grid container
+  display: grid;
+  // gutter between grid items
+  grid-gap: 20px;
+  // define 12 equally sized columns (1fr = 1 fraction)
+  grid-template-columns: repeat(12, 1fr);
+  // tell the placement algorithm to fill in empty spaces
+  grid-auto-flow: dense;
+
+  // left and bottom borders between grid items
+  overflow: hidden;
+
+  > * {
+    position: relative;
+
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+    }
+
+    &:before {
+      top: 0;
+      bottom: 0;
+      left: -10px;
+      border-left: 1px solid #cec6b9;
+    }
+
+    &:after {
+      right: 0;
+      bottom: -10px;
+      left: 0;
+      border-bottom: 1px solid #cec6b9;
+    }
+  }
+}
+
+// visually hide the title
+.Grid-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0 0 0 0);
+}

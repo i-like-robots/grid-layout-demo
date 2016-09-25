@@ -1,0 +1,23 @@
+{
+  "name": "grid-layout-demo",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "build-html": "pug --pretty src/templates/index.pug -O src/data.json -o public",
+    "build-styles": "node-sass src/styles/main.scss public/main.css --recursive",
+    "watch-html": "npm run build-html -- --watch",
+    "watch-styles": "npm run build-styles -- --watch",
+    "build": "parallelshell 'npm run build-styles' 'npm run build-html'",
+    "watch": "parallelshell 'npm run watch-styles' 'npm run watch-html'"
+  },
+  "author": "Matt Hinchliffe",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^3.10.0",
+    "parallelshell": "^2.0.0",
+    "pug": "^2.0.0-beta6",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}

@@ -1,0 +1,135 @@
+.Grid--headlines {
+
+  .Story:nth-of-type(1) {
+    .Story-cover {
+      display: none;
+    }
+
+    .Story-title {
+      font-size: 2.75rem;
+    }
+  }
+
+  .Story:nth-of-type(2) {
+    .Story-summary {
+      display: none;
+    }
+  }
+
+  .Story:nth-of-type(6) {
+    .Story-cover {
+      display: none;
+    }
+  }
+
+  .Story:nth-of-type(6),
+  .Story:nth-of-type(7) {
+    .Story-summary {
+      display: none;
+    }
+  }
+
+  .Story:nth-of-type(7) {
+    .Story-cover {
+      float: left;
+      width: 30%;
+      margin-right: 10px;
+    }
+  }
+
+  .Story:nth-of-type(n+8):nth-of-type(-n+11) {
+    .Story-title {
+      font-size: 1.25rem;
+    }
+
+    .Story-cover,
+    .Story-summary {
+      display: none;
+    }
+  }
+
+  .FastNews {
+    display: none;
+  }
+
+  // small screen layout
+  @media screen and (max-width: 40em) {
+    .Story {
+      grid-column: span 12;
+    }
+
+    .Story:nth-of-type(3),
+    .Story:nth-of-type(4) {
+      grid-column: span 6;
+    }
+
+    .Story:nth-of-type(5) {
+      .Story-cover {
+        float: right;
+        min-width: auto;
+        max-width: 30%;
+      }
+    }
+  }
+
+  // medium screen layout
+  @media screen and (min-width: 40em) and (max-width: 55em) {
+    .Story:nth-of-type(1),
+    .Story:nth-of-type(2) {
+      grid-column: span 6;
+    }
+
+    .Story:nth-of-type(n+3):nth-of-type(-n+6) {
+      grid-column: span 4;
+    }
+
+    .Story:nth-of-type(7) {
+      grid-column: span 8;
+    }
+
+    .Story:nth-of-type(n+8):nth-of-type(-n+11) {
+      grid-column: span 6;
+    }
+  }
+
+  // large screen layout
+  @media screen and (min-width: 55em) {
+    .Story:nth-of-type(1) {
+      grid-column: span 4;
+    }
+
+    .Story:nth-of-type(2) {
+      grid-column: span 5;
+    }
+
+    .Story:nth-of-type(3),
+    .Story:nth-of-type(4),
+    .Story:nth-of-type(5) {
+      grid-row: span 5;
+      grid-column: span 3;
+    }
+
+    .Story:nth-of-type(6) {
+      grid-row: span 3;
+      grid-column: 1 / span 3;
+    }
+
+    .Story:nth-of-type(7) {
+      grid-row: span 3;
+      grid-column: span 6;
+    }
+
+    .Story:nth-of-type(n+8):nth-of-type(-n+11) {
+      grid-row: span 2;
+      grid-column: 10 / span 3;
+    }
+
+    // fast ft
+    .FastNews {
+      display: initial;
+      grid-row: 1 / span 1;
+      grid-column: 10 / span 3;
+    }
+  }
+
+}

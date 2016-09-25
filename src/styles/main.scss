@@ -1,0 +1,56 @@
+.Demo {
+  margin: 0;
+  font: normal 1em/1.4 'Big Caslon', 'Cambria', 'Times New Roman', serif;
+  color: #333;
+  background: #fff1e0;
+
+  a {
+    text-decoration: none;
+    border-bottom: 1px dotted transparent;
+
+    &:hover,
+    &:focus {
+      border-bottom-color: inherit;
+    }
+  }
+}
+
+.Demo-container {
+  max-width: 80em;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.Demo-header {
+  margin-bottom: 20px;
+  height: 100px;
+  border-bottom: 1px solid #cec6b9;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 35px,
+    rgba(25, 25, 25, 0.1) 35px,
+    rgba(25, 25, 25, 0.1) 70px
+  );
+}
+
+.Demo-footer {
+  margin-top: 20px;
+  height: 160px;
+  border-top: 6px solid #27757b;
+  color: white;
+  background: #333;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 35px,
+    rgba(255, 255, 255, 0.1) 35px,
+    rgba(255, 255, 255, 0.1) 70px
+  );
+}
+
+@import 'components/fast-ft';
+@import 'components/story';
+
+@import 'layouts/grid';
+@import 'layouts/grid-headlines';

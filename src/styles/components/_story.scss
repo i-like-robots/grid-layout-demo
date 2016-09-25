@@ -1,0 +1,81 @@
+.Story {}
+
+.Story--picture {
+  padding: 10px;
+  background: #e9decf;
+}
+
+.Story-tag {
+  display: inline-block;
+  margin-bottom: 0.25rem;
+  color: #9e2f50;
+  font-weight: 600;
+  font-size: 0.875rem;
+  font-family: sans-serif;
+}
+
+// image placeholder
+.Story-cover {
+  position: relative;
+  margin-bottom: 0.5rem;
+
+  &:before {
+    content: '';
+    display: block;
+    padding-top: 56.25%;
+  }
+}
+
+.Story-coverImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.Story-title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.Story-link {
+  color: inherit;
+}
+
+.Story-summary {
+  margin: 0.75rem 0;
+  font-size: 1rem;
+  color: #505050;
+}
+
+.Story-date {
+  display: block;
+  margin: 0.5rem 0;
+  color: #8b572a;
+  font-size: 0.875rem;
+  font-family: sans-serif;
+}
+
+.Story-related {
+  margin: 1em 0 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.Story-relatedItem {
+  margin-bottom: 0.25rem;
+
+  &:before {
+    content: '➤';
+    margin-right: 0.5em;
+    color: #9e2f50;
+    font-weight: 600;
+  }
+}
+
+.Story-relatedLink {
+  color: inherit;
+  font-size: 1.125rem;
+}

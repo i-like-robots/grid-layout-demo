@@ -1,0 +1,44 @@
+.FastNews {
+  background: #fdf8f2;
+}
+
+.FastNews-title {
+  margin: 0;
+  padding: 6px 12px;
+  font-size: 1.25rem;
+  font-family: sans-serif;
+  background: #f5dfd9;
+  color: #cc0033;
+
+  span {
+    margin-left: -0.25em;
+    color: #333;
+  }
+}
+
+.FastNews-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.FastNews-item {
+  padding: 8px 12px;
+  border-top: 1px solid #cec6b9;
+}
+
+.FastNews-link {
+  color: inherit;
+
+  :first-child > & {
+    font-size: 1.25rem;
+  }
+}
+
+.FastNews-date {
+  display: block;
+  margin-top: 0.25rem;
+  color: #cc0033;
+  font-size: 0.875rem;
+  font-family: sans-serif;
+}

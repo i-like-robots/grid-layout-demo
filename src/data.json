@@ -1,0 +1,192 @@
+{
+    "headlines": [
+        {
+            "guid": "dabf5f54-a4d9-4c78-bf16-94abfb5ce7ec",
+            "mainImage": "https://unsplash.it/640/360?random",
+            "title": "Ex pariatur do esse anim occaecat ipsum",
+            "summary": "Commodo minim adipisicing do cillum ullamco ex commodo est voluptate ea veniam.",
+            "date": "Sat Oct 22 2016 06:07:57 GMT+0000 (UTC)",
+            "tags": [
+                "Opinion",
+                "Indexia",
+                "Madagascar",
+                "Ward Gray"
+            ],
+            "related": [
+                {
+                    "guid": "399fdfe3-f2a6-4860-88f7-bdcefc23be31",
+                    "title": "Duis officia qui excepteur tempor nulla",
+                    "date": "Sat Oct 22 2016 03:35:49 GMT+0000 (UTC)"
+                },
+                {
+                    "guid": "9412a65a-a9c1-4bc1-9e99-a9f54e422363",
+                    "title": "Cillum incididunt est laboris aliqua",
+                    "date": "Sat Oct 22 2016 04:42:07 GMT+0000 (UTC)"
+                },
+                {
+                    "guid": "f321f767-da86-4194-8311-4f8f35debff8",
+                    "title": "Ea culpa sit dolore enim Lorem ipsum",
+                    "date": "Sat Oct 22 2016 03:55:46 GMT+0000 (UTC)"
+                }
+            ]
+        },
+        {
+            "guid": "b3c3a5e1-a9bc-4653-a307-bdd058197fcd",
+            "mainImage": "https://unsplash.it/640/360?random",
+            "title": "Ullamco amet veniam exercitation magna",
+            "summary": "Aliquip ea aute quis velit consectetur. Pariatur minim non ipsum esse ullamco.",
+            "date": "Sat Oct 22 2016 18:07:41 GMT+0000 (UTC)",
+            "tags": [
+                "Companies",
+                "Quonk",
+                "Lebanon",
+                "Kaufman Stuart"
+            ],
+            "variation": "picture"
+        },
+        {
+            "guid": "3df8683f-a5c0-40c2-9cd5-e2e64a33377f",
+            "mainImage": "https://unsplash.it/640/360?random",
+            "title": "Laboris dolor velit officia occaecat",
+            "summary": "Et occaecat velit aute excepteur adipisicing cupidatat duis aute aliqua officia.",
+            "date": "Sun Oct 23 2016 16:07:12 GMT+0000 (UTC)",
+            "tags": [
+                "World",
+                "Intradisk",
+                "Afghanistan",
+                "Fitzpatrick Wolfe"
+            ]
+        },
+        {
+            "guid": "9fdf807d-c449-4da3-a1d6-1c985d7ba8a0",
+            "mainImage": "https://unsplash.it/640/360?random",
+            "title": "Cupidatat magna adipisicing exercitation in",
+            "summary": "Occaecat deserunt esse reprehenderit proident ut amet mollit consequat voluptate eu.",
+            "date": "Sun Oct 23 2016 16:28:45 GMT+0000 (UTC)",
+            "tags": [
+                "Markets",
+                "Geekus",
+                "Heard and McDonald Islands",
+                "Carpenter Roth"
+            ]
+        },
+        {
+            "guid": "0f7f6732-ca02-45c3-8f2d-85903677b9c1",
+            "mainImage": "https://unsplash.it/640/360?random",
+            "title": "Esse ad magna anim non consequat proident",
+            "summary": "Id fugiat minim velit eu proident deserunt officia ipsum ullamco commodo pariatur.",
+            "date": "Sat Oct 22 2016 09:58:26 GMT+0000 (UTC)",
+            "tags": [
+                "Companies",
+                "Hivedom",
+                "France",
+                "Jacklyn Henson"
+            ]
+        },
+        {
+            "guid": "1e6044da-e7ab-4fdf-9f69-442ef731187c",
+            "mainImage": "https://unsplash.it/640/360?random",
+            "title": "Occaecat nostrud magna sit adipisicing",
+            "summary": "In non ipsum excepteur do deserunt officia veniam dolor magna nisi.",
+            "date": "Sat Oct 22 2016 13:16:31 GMT+0000 (UTC)",
+            "tags": [
+                "Markets",
+                "Glasstep",
+                "Sao Tome and Principe",
+                "Lawanda Medina"
+            ]
+        },
+        {
+            "guid": "3d697f10-af6a-4a40-bf80-856746ffd74c",
+            "mainImage": "https://unsplash.it/640/360?random",
+            "title": "Dolor adipisicing dolor esse ad exercitation",
+            "summary": "Culpa qui qui eiusmod velit deserunt dolor. Velit est excepteur irure elit ex magna.",
+            "date": "Sun Oct 23 2016 05:09:38 GMT+0000 (UTC)",
+            "tags": [
+                "World",
+                "Geoform",
+                "Burkina Faso",
+                "Lottie Jacobson"
+            ]
+        },
+        {
+            "guid": "253f19c4-6fa8-4ddf-a213-9f3c03474262",
+            "mainImage": "https://unsplash.it/640/360?random",
+            "title": "Exercitation sunt sunt commodo exercitation",
+            "summary": "Et excepteur aliquip nisi ex ad eiusmod commodo et cupidatat aute sit commodo qui eu.",
+            "date": "Sat Oct 22 2016 07:35:39 GMT+0000 (UTC)",
+            "tags": [
+                "Markets",
+                "Otherway",
+                "Guam",
+                "Norris Vega"
+            ]
+        },
+        {
+            "guid": "7867d752-cf28-4099-b95e-28269fc7d043",
+            "mainImage": "https://unsplash.it/640/360?random",
+            "title": "Fugiat ullamco aliquip culpa id ipsum",
+            "summary": "In ut cupidatat sit et elit elit eu ad aliqua nulla ullamco ut nulla.",
+            "date": "Sat Oct 22 2016 15:52:15 GMT+0000 (UTC)",
+            "tags": [
+                "Markets",
+                "Exoplode",
+                "Myanmar",
+                "Day Mccoy"
+            ]
+        },
+        {
+            "guid": "bc585179-a31e-402d-8d57-2d10d90756f0",
+            "mainImage": "https://unsplash.it/640/360?random",
+            "title": "Mollit anim adipisicing eiusmod tempor",
+            "summary": "Et in laborum occaecat sunt aliqua nostrud excepteur ea aliquip aliquip.",
+            "date": "Sat Oct 22 2016 15:55:54 GMT+0000 (UTC)",
+            "tags": [
+                "Companies",
+                "Centree",
+                "Svalbard",
+                "Penny Figueroa"
+            ]
+        },
+        {
+            "guid": "e44741cc-24d6-45fd-b95b-1d12e5a7acb8",
+            "mainImage": "https://unsplash.it/640/360?random",
+            "title": "Ea aute adipisicing ut labore eu aliquip do",
+            "summary": "Aute nisi duis velit adipisicing laboris proident ex reprehenderit voluptate elit veniam.",
+            "date": "Sun Oct 23 2016 01:53:39 GMT+0000 (UTC)",
+            "tags": [
+                "Opinion",
+                "Kog",
+                "Djibouti",
+                "Yolanda Wheeler"
+            ]
+        }
+    ],
+    "fastft": [
+        {
+            "guid": "237755a7-016b-45ea-b1a2-d08e6ef6b7b3",
+            "title": "Voluptate reprehenderit mollit commodo ipsum",
+            "date": "Sun Oct 23 2016 05:22:19 GMT+0000 (UTC)"
+        },
+        {
+            "guid": "8681b435-2b67-4ea5-aa4d-33380deb76e0",
+            "title": "Nisi ipsum adipisicing magna consequat",
+            "date": "Sat Oct 22 2016 16:35:32 GMT+0000 (UTC)"
+        },
+        {
+            "guid": "8f8e3aeb-4b7b-4e83-953c-5c75201b948a",
+            "title": "Anim cupidatat in ullamco",
+            "date": "Sat Oct 22 2016 02:30:20 GMT+0000 (UTC)"
+        },
+        {
+            "guid": "a92ae544-9ada-4db1-ab85-866e5278f15f",
+            "title": "Dolore ut excepteur pariatur deserunt id do",
+            "date": "Sun Oct 23 2016 00:35:20 GMT+0000 (UTC)"
+        },
+        {
+            "guid": "d14b35c9-f454-4c59-9fb0-03e9bd6875f8",
+            "title": "Sint deserunt id nisi incididunt cillum voluptate",
+            "date": "Sat Oct 22 2016 09:58:18 GMT+0000 (UTC)"
+        }
+    ]
+}

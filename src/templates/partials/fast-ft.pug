@@ -1,0 +1,7 @@
+section.FastNews
+  h2.FastNews-title Fast #[span News]
+  ol.FastNews-list
+    each item in fastft
+      li.FastNews-item
+        a.FastNews-link(href=`/context/${item.guid}`, rel='bookmark')= item.title
+        time.FastNews-date(datetime=item.date)= new Date(item.date).toLocaleString()

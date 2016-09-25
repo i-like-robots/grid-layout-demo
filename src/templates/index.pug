@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+  head
+    title FT.com with CSS Grid Layout
+    link(rel='stylesheet', href='main.css')
+  body.Demo
+    div.Demo-header
+    main.Demo-container
+      section.Grid.Grid--headlines
+        h1.Grid-title Headlines
+        each item in headlines
+          include partials/story.pug
+        include partials/fast-ft.pug
+    footer.Demo-footer

@@ -1,0 +1,24 @@
+article.Story(class=`Story--${item.variation || item.tags[0].toLowerCase()}`)
+  if item.mainImage
+    div.Story-cover
+      img.Story-coverImage(src=`${item.mainImage}=${item.guid}`, alt='', role='presentation')
+  span.Story-tag
+    case item.tags[0]
+      when 'Companies'
+        = item.tags[1]
+      when 'World'
+        = item.tags[2]
+      when 'Opinion'
+        = item.tags[3]
+      default
+        = item.tags[0]
+  h2.Story-title
+    a.Story-link(href=`/content/${item.guid}`)= item.title
+  p.Story-summary= item.summary
+  time.Story-date(datetime=item.date)= new Date(item.date).toLocaleString()
+
+  if item.related
+    ul.Story-related
+      each scrap in item.related
+        li.Story-relatedItem
+          a.Story-relatedLink(href=`/content/${scrap.guid}`)= scrap.title
