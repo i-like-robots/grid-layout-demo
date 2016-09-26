@@ -12,10 +12,11 @@ article.Story(class=`Story--${item.variation || item.tags[0].toLowerCase()}`)
         = item.tags[3]
       default
         = item.tags[0]
-  h2.Story-title
-    a.Story-link(href=`/content/${item.guid}`)= item.title
-  p.Story-summary= item.summary
-  time.Story-date(datetime=item.date)= new Date(item.date).toLocaleString()
+  div.Story-content
+    h2.Story-title
+      a.Story-link(href=`/content/${item.guid}`)= item.title
+    p.Story-summary= item.summary
+    time.Story-date(datetime=item.date)= new Date(item.date).toLocaleString()
 
   if item.related
     ul.Story-related

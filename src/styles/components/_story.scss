@@ -33,6 +33,11 @@
   width: 100%;
 }
 
+.Story-content {
+  // so it doesn't wrap around a cover image
+  overflow: hidden;
+}
+
 .Story-title {
   margin: 0;
   font-size: 1.5rem;

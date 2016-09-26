@@ -7,6 +7,7 @@
 
     .Story-title {
       font-size: 2.75rem;
+      line-height: 1;
     }
   }
 
@@ -32,7 +33,7 @@
   .Story:nth-of-type(7) {
     .Story-cover {
       float: left;
-      width: 30%;
+      width: 40%;
       margin-right: 10px;
     }
   }
@@ -66,8 +67,12 @@
     .Story:nth-of-type(5) {
       .Story-cover {
         float: right;
-        min-width: auto;
-        max-width: 30%;
+        width: 40%;
+        margin-left: 10px;
+      }
+
+      .Story-summary {
+        display: none;
       }
     }
   }
