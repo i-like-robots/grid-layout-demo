@@ -28,9 +28,9 @@
   background-image: repeating-linear-gradient(
     45deg,
     transparent,
-    transparent 35px,
-    rgba(25, 25, 25, 0.1) 35px,
-    rgba(25, 25, 25, 0.1) 70px
+    transparent 30px,
+    rgba(25, 25, 25, 0.1) 30px,
+    rgba(25, 25, 25, 0.1) 60px
   );
 }
 
@@ -43,10 +43,20 @@
   background-image: repeating-linear-gradient(
     45deg,
     transparent,
-    transparent 35px,
-    rgba(255, 255, 255, 0.1) 35px,
-    rgba(255, 255, 255, 0.1) 70px
+    transparent 30px,
+    rgba(255, 255, 255, 0.1) 30px,
+    rgba(255, 255, 255, 0.1) 60px
   );
+}
+
+.Demo-warning {
+  margin: 10px;
+  padding: 0.75rem;
+  border: 2px solid;
+  text-align: center;
+  font-family: sans-serif;
+  color: red;
+  background: white;
 }
 
 @import 'components/fast-ft';
