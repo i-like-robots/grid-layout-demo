@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FT.com with CSS Grid Layout</title>
+    <link rel="stylesheet" href="main.css">
+    <script>document.addEventListener('DOMContentLoaded', function () {
+  var support = window.CSS && CSS.supports('display', 'grid')
+
+  if (!support) {
+    var p = document.createElement('p')
+    p.className = 'Demo-warning'
+    p.innerHTML = '<strong>Your browser does not appear to support grid layout. You may need <a href="https://igalia.github.io/css-grid-layout/enable.html">to enable it</a>.</strong>'
+    document.body.insertBefore(p, document.body.firstChild)
+  }
+})
+
+    </script>
+  </head>
+  <body class="Demo">
+    <div class="Demo-header"></div>
+    <main class="Demo-container">
+      <section class="Grid Grid--headlines">
+        <h1 class="Grid-title">Headlines</h1>
+        <article class="Story Story--opinion">
+          <div class="Story-cover"><img class="Story-coverImage" src="https://unsplash.it/640/360?random=dabf5f54-a4d9-4c78-bf16-94abfb5ce7ec" alt="" role="presentation"></div><span class="Story-tag">Ward Gray</span>
+          <div class="Story-content">
+            <h2 class="Story-title"><a class="Story-link" href="/content/dabf5f54-a4d9-4c78-bf16-94abfb5ce7ec">Ex pariatur do esse anim occaecat ipsum</a></h2>
+            <p class="Story-summary">Commodo minim adipisicing do cillum ullamco ex commodo est voluptate ea veniam.</p>
+            <time class="Story-date" datetime="Sat Oct 22 2016 06:07:57 GMT+0000 (UTC)">10/22/2016, 7:07:57 AM</time>
+          </div>
+          <ul class="Story-related">
+            <li class="Story-relatedItem"><a class="Story-relatedLink" href="/content/399fdfe3-f2a6-4860-88f7-bdcefc23be31">Duis officia qui excepteur tempor nulla</a></li>
+            <li class="Story-relatedItem"><a class="Story-relatedLink" href="/content/9412a65a-a9c1-4bc1-9e99-a9f54e422363">Cillum incididunt est laboris aliqua</a></li>
+            <li class="Story-relatedItem"><a class="Story-relatedLink" href="/content/f321f767-da86-4194-8311-4f8f35debff8">Ea culpa sit dolore enim Lorem ipsum</a></li>
+          </ul>
+        </article>
+        <article class="Story Story--picture">
+          <div class="Story-cover"><img class="Story-coverImage" src="https://unsplash.it/640/360?random=b3c3a5e1-a9bc-4653-a307-bdd058197fcd" alt="" role="presentation"></div><span class="Story-tag">Quonk</span>
+          <div class="Story-content">
+            <h2 class="Story-title"><a class="Story-link" href="/content/b3c3a5e1-a9bc-4653-a307-bdd058197fcd">Ullamco amet veniam exercitation magna</a></h2>
+            <p class="Story-summary">Aliquip ea aute quis velit consectetur. Pariatur minim non ipsum esse ullamco.</p>
+            <time class="Story-date" datetime="Sat Oct 22 2016 18:07:41 GMT+0000 (UTC)">10/22/2016, 7:07:41 PM</time>
+          </div>
+        </article>
+        <article class="Story Story--world">
+          <div class="Story-cover"><img class="Story-coverImage" src="https://unsplash.it/640/360?random=3df8683f-a5c0-40c2-9cd5-e2e64a33377f" alt="" role="presentation"></div><span class="Story-tag">Afghanistan</span>
+          <div class="Story-content">
+            <h2 class="Story-title"><a class="Story-link" href="/content/3df8683f-a5c0-40c2-9cd5-e2e64a33377f">Laboris dolor velit officia occaecat</a></h2>
+            <p class="Story-summary">Et occaecat velit aute excepteur adipisicing cupidatat duis aute aliqua officia.</p>
+            <time class="Story-date" datetime="Sun Oct 23 2016 16:07:12 GMT+0000 (UTC)">10/23/2016, 5:07:12 PM</time>
+          </div>
+        </article>
+        <article class="Story Story--markets">
+          <div class="Story-cover"><img class="Story-coverImage" src="https://unsplash.it/640/360?random=9fdf807d-c449-4da3-a1d6-1c985d7ba8a0" alt="" role="presentation"></div><span class="Story-tag">Markets</span>
+          <div class="Story-content">
+            <h2 class="Story-title"><a class="Story-link" href="/content/9fdf807d-c449-4da3-a1d6-1c985d7ba8a0">Cupidatat magna adipisicing exercitation in</a></h2>
+            <p class="Story-summary">Occaecat deserunt esse reprehenderit proident ut amet mollit consequat voluptate eu.</p>
+            <time class="Story-date" datetime="Sun Oct 23 2016 16:28:45 GMT+0000 (UTC)">10/23/2016, 5:28:45 PM</time>
+          </div>
+        </article>
+        <article class="Story Story--companies">
+          <div class="Story-cover"><img class="Story-coverImage" src="https://unsplash.it/640/360?random=0f7f6732-ca02-45c3-8f2d-85903677b9c1" alt="" role="presentation"></div><span class="Story-tag">Hivedom</span>
+          <div class="Story-content">
+            <h2 class="Story-title"><a class="Story-link" href="/content/0f7f6732-ca02-45c3-8f2d-85903677b9c1">Esse ad magna anim non consequat proident</a></h2>
+            <p class="Story-summary">Id fugiat minim velit eu proident deserunt officia ipsum ullamco commodo pariatur.</p>
+            <time class="Story-date" datetime="Sat Oct 22 2016 09:58:26 GMT+0000 (UTC)">10/22/2016, 10:58:26 AM</time>
+          </div>
+        </article>
+        <article class="Story Story--markets">
+          <div class="Story-cover"><img class="Story-coverImage" src="https://unsplash.it/640/360?random=1e6044da-e7ab-4fdf-9f69-442ef731187c" alt="" role="presentation"></div><span class="Story-tag">Markets</span>
+          <div class="Story-content">
+            <h2 class="Story-title"><a class="Story-link" href="/content/1e6044da-e7ab-4fdf-9f69-442ef731187c">Occaecat nostrud magna sit adipisicing</a></h2>
+            <p class="Story-summary">In non ipsum excepteur do deserunt officia veniam dolor magna nisi.</p>
+            <time class="Story-date" datetime="Sat Oct 22 2016 13:16:31 GMT+0000 (UTC)">10/22/2016, 2:16:31 PM</time>
+          </div>
+        </article>
+        <article class="Story Story--world">
+          <div class="Story-cover"><img class="Story-coverImage" src="https://unsplash.it/640/360?random=3d697f10-af6a-4a40-bf80-856746ffd74c" alt="" role="presentation"></div><span class="Story-tag">Burkina Faso</span>
+          <div class="Story-content">
+            <h2 class="Story-title"><a class="Story-link" href="/content/3d697f10-af6a-4a40-bf80-856746ffd74c">Dolor adipisicing dolor esse ad exercitation</a></h2>
+            <p class="Story-summary">Culpa qui qui eiusmod velit deserunt dolor. Velit est excepteur irure elit ex magna.</p>
+            <time class="Story-date" datetime="Sun Oct 23 2016 05:09:38 GMT+0000 (UTC)">10/23/2016, 6:09:38 AM</time>
+          </div>
+        </article>
+        <article class="Story Story--markets">
+          <div class="Story-cover"><img class="Story-coverImage" src="https://unsplash.it/640/360?random=253f19c4-6fa8-4ddf-a213-9f3c03474262" alt="" role="presentation"></div><span class="Story-tag">Markets</span>
+          <div class="Story-content">
+            <h2 class="Story-title"><a class="Story-link" href="/content/253f19c4-6fa8-4ddf-a213-9f3c03474262">Exercitation sunt sunt commodo exercitation</a></h2>
+            <p class="Story-summary">Et excepteur aliquip nisi ex ad eiusmod commodo et cupidatat aute sit commodo qui eu.</p>
+            <time class="Story-date" datetime="Sat Oct 22 2016 07:35:39 GMT+0000 (UTC)">10/22/2016, 8:35:39 AM</time>
+          </div>
+        </article>
+        <article class="Story Story--markets">
+          <div class="Story-cover"><img class="Story-coverImage" src="https://unsplash.it/640/360?random=7867d752-cf28-4099-b95e-28269fc7d043" alt="" role="presentation"></div><span class="Story-tag">Markets</span>
+          <div class="Story-content">
+            <h2 class="Story-title"><a class="Story-link" href="/content/7867d752-cf28-4099-b95e-28269fc7d043">Fugiat ullamco aliquip culpa id ipsum</a></h2>
+            <p class="Story-summary">In ut cupidatat sit et elit elit eu ad aliqua nulla ullamco ut nulla.</p>
+            <time class="Story-date" datetime="Sat Oct 22 2016 15:52:15 GMT+0000 (UTC)">10/22/2016, 4:52:15 PM</time>
+          </div>
+        </article>
+        <article class="Story Story--companies">
+          <div class="Story-cover"><img class="Story-coverImage" src="https://unsplash.it/640/360?random=bc585179-a31e-402d-8d57-2d10d90756f0" alt="" role="presentation"></div><span class="Story-tag">Centree</span>
+          <div class="Story-content">
+            <h2 class="Story-title"><a class="Story-link" href="/content/bc585179-a31e-402d-8d57-2d10d90756f0">Mollit anim adipisicing eiusmod tempor</a></h2>
+            <p class="Story-summary">Et in laborum occaecat sunt aliqua nostrud excepteur ea aliquip aliquip.</p>
+            <time class="Story-date" datetime="Sat Oct 22 2016 15:55:54 GMT+0000 (UTC)">10/22/2016, 4:55:54 PM</time>
+          </div>
+        </article>
+        <article class="Story Story--opinion">
+          <div class="Story-cover"><img class="Story-coverImage" src="https://unsplash.it/640/360?random=e44741cc-24d6-45fd-b95b-1d12e5a7acb8" alt="" role="presentation"></div><span class="Story-tag">Yolanda Wheeler</span>
+          <div class="Story-content">
+            <h2 class="Story-title"><a class="Story-link" href="/content/e44741cc-24d6-45fd-b95b-1d12e5a7acb8">Ea aute adipisicing ut labore eu aliquip do</a></h2>
+            <p class="Story-summary">Aute nisi duis velit adipisicing laboris proident ex reprehenderit voluptate elit veniam.</p>
+            <time class="Story-date" datetime="Sun Oct 23 2016 01:53:39 GMT+0000 (UTC)">10/23/2016, 2:53:39 AM</time>
+          </div>
+        </article>
+        <section class="FastNews">
+          <h2 class="FastNews-title">Fast <span>News</span></h2>
+          <ol class="FastNews-list">
+            <li class="FastNews-item"><a class="FastNews-link" href="/context/237755a7-016b-45ea-b1a2-d08e6ef6b7b3" rel="bookmark">Voluptate reprehenderit mollit commodo ipsum</a>
+              <time class="FastNews-date" datetime="Sun Oct 23 2016 05:22:19 GMT+0000 (UTC)">10/23/2016, 6:22:19 AM</time>
+            </li>
+            <li class="FastNews-item"><a class="FastNews-link" href="/context/8681b435-2b67-4ea5-aa4d-33380deb76e0" rel="bookmark">Nisi ipsum adipisicing magna consequat</a>
+              <time class="FastNews-date" datetime="Sat Oct 22 2016 16:35:32 GMT+0000 (UTC)">10/22/2016, 5:35:32 PM</time>
+            </li>
+            <li class="FastNews-item"><a class="FastNews-link" href="/context/8f8e3aeb-4b7b-4e83-953c-5c75201b948a" rel="bookmark">Anim cupidatat in ullamco</a>
+              <time class="FastNews-date" datetime="Sat Oct 22 2016 02:30:20 GMT+0000 (UTC)">10/22/2016, 3:30:20 AM</time>
+            </li>
+            <li class="FastNews-item"><a class="FastNews-link" href="/context/a92ae544-9ada-4db1-ab85-866e5278f15f" rel="bookmark">Dolore ut excepteur pariatur deserunt id do</a>
+              <time class="FastNews-date" datetime="Sun Oct 23 2016 00:35:20 GMT+0000 (UTC)">10/23/2016, 1:35:20 AM</time>
+            </li>
+            <li class="FastNews-item"><a class="FastNews-link" href="/context/d14b35c9-f454-4c59-9fb0-03e9bd6875f8" rel="bookmark">Sint deserunt id nisi incididunt cillum voluptate</a>
+              <time class="FastNews-date" datetime="Sat Oct 22 2016 09:58:18 GMT+0000 (UTC)">10/22/2016, 10:58:18 AM</time>
+            </li>
+          </ol>
+        </section>
+      </section>
+    </main>
+    <footer class="Demo-footer"></footer>
+  </body>
+</html>
